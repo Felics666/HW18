@@ -34,7 +34,7 @@ public class Main {
         System.out.println("Task 3");
 
         List<String> string2 = new ArrayList<>(List.of("Собака", "Кошка", "Пес", "Кошка", "Прошел",
-                "Дом", "Дерево", "Собака", "Кошка", "Дом", "собака", "кошка", "дом", "Ель"));
+                "Дом", "Дерево", "Собака", "Кошка", "Дом", "собака", "кошка", "дом", "Ель", "корова"));
         Set<String> newString2 = new HashSet<>();
         for (String string : string2) {
             if (!newString2.contains(string)) {
